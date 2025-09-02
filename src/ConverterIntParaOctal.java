@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class ConverterIntParaOctal {
     public static void main(String[] args) {
-        int numeroDecimal, resto, quota, i=1, j;
+        int numeroDecimal, quota, i=1, j;
         int[] numeroOctal = new int[100];
 
         Scanner input = new Scanner(System.in);
