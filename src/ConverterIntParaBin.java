@@ -16,6 +16,8 @@ public class ConverterIntParaBin {
         System.out.println("Digite um numero decimal:");
         numeroDecimal = input.nextInt();
 
+        input.close();
+        
         quota = numeroDecimal;
 
         while (quota !=0) {
@@ -30,6 +32,6 @@ public class ConverterIntParaBin {
             System.out.print(numeroBinario[j]);
         }
 
-        input.close();
+       
     }
 }
