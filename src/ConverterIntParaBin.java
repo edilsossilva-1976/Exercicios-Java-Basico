@@ -13,11 +13,11 @@ public class ConverterIntParaBin {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Digite um numero decimal:");
+        System.out.print("Digite um numero decimal:");
         numeroDecimal = input.nextInt();
 
         input.close();
-        
+
         quota = numeroDecimal;
 
         while (quota !=0) {
@@ -26,7 +26,7 @@ public class ConverterIntParaBin {
         }
 
         //Mostrar representação binaria de um numero decimal
-        System.out.println("O numero binário é: ");
+        System.out.print("O numero binário é: ");
 
         for(j = i - 1; j > 0; j--){
             System.out.print(numeroBinario[j]);
