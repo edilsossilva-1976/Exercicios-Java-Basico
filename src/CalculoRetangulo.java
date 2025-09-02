@@ -18,6 +18,8 @@ public class CalculoRetangulo {
         System.out.print("Digite a largura do retangulo: ");
         largura = input.nextDouble();
 
+        input.close();
+        
         area = largura * altura;
         perimetro = 2 * (altura + largura);
 
