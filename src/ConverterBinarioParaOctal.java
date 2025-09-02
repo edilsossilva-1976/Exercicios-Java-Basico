@@ -17,6 +17,8 @@ public class ConverterBinarioParaOctal {
         numeroBinario = input.nextInt();
         numeroBinario1 = numeroBinario;
 
+        input.close();
+        
         //Converter numero binario em decimal
         while (numeroBinario > 0) {
             resto = numeroBinario % 10;
