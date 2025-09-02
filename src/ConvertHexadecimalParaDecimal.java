@@ -28,7 +28,8 @@ public class ConvertHexadecimalParaDecimal {
 
         System.out.print("Digite um numero hexadecimal: ");
         numeroHexadecimal = input.nextLine();
-
+        input.close();
+        
         numeroDecimal = HexToDecimal(numeroHexadecimal);
 
         System.out.println("Numero decimal equivalente: " + numeroDecimal);
