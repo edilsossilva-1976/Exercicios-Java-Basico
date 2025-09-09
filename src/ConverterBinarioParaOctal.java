@@ -8,15 +8,13 @@ import java.util.Scanner;
 
 public class ConverterBinarioParaOctal {
     public static void main(String[] args) {
-        int numeroBinario, numeroBinario1, resto, numeroDecimal = 0, quota, i = 1, j;
+        int numeroBinario, resto, numeroDecimal = 0, quota, i = 1, j;
         int[] numeroOctal = new int[100];
 
         Scanner input = new Scanner(System.in);
 
         System.out.print("Digite um numero binario: ");
         numeroBinario = input.nextInt();
-        numeroBinario1 = numeroBinario;
-
         input.close();
         
         //Converter numero binario em decimal
